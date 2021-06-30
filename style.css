@@ -1,116 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
-h1{
-font-family: 'Roboto Slab', sans-serif;
-text-align: center;
-}
-
-body{
-background-color: lightyellow;
-}
-
-#heading{
-text-align: center;
-font-size: 4em;
-}
-
-h1{
-font-size: 2em;
-}
-
-.wrapper{
-position: absolute;
-top: 150px;
-left: 500px;
-}
-
-.emoji-face{
-background: #F2DD68;
-height: 100px;
-width: 100px;
-border-radius: 50%;
-box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
-position: relative;
-}
-
-.eye1{
-background: #995710;
-height: 11px;
-width: 12px;
-border-radius: 50%;
-position: absolute;
-left: 20px;
-top: 30px;
-}
-
-.eye2{
-background: #995710;
-height: 11px;
-width: 12px;
-border-radius: 50%;
-position: absolute;
-top: 30px;
-left: 70px;
-}
-
-.mouth{
-background: #995710;
-height: 34px;
-width: 70px;
-border-radius: 0 0 90px 90px;
-position: absolute;
-top: 52px;
-left: 16px;
-z-index: 1;
-overflow: hidden;
-}
-
-.tongue{
-background: #e25d5d;
-width: 38px;
-height: 38px;
-border-radius: 50%;
-position: absolute;
-top: 20px;
-left: 15px;
-z-index: 2;
-}
-
-.mouth-shock{
-background: #995710;
-height: 25px;
-width: 23px;
-border-radius: 50%;
-position: absolute;
-top: 50px;
-left: 40px;
-}
-
-.mouth-speechless{
-background: #995710;
-height: 5px;
-width: 70px;
-position: absolute;
-top: 60px;
-left: 16px;
-}
-
-.emoji-face{
-float: left;
-margin: 0px 20px 0px 0px;
-}
-.write-up{
-    background-color: #d8aa2b;
-    padding: 5% 10%;
-    margin: 10% 20%;
-    text-align: center;
-    border-radius: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     }
-    
-    p{
-    font-size: 1.5em;
-    }
-    .emoji-face:hover{
-        transform: scale(1.25);
-        }    
 
+    body{
+        font-family: 'Exo 2', sans-serif;
+        background: url('https://i1.faceprep.in/ProGrad/sky-moon-bg.png');
+        height: 100vh;
+        width: 100vw;
+        background-size: 100% 100%;
+        }
+
+        #astronaut1{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            height: 500px;
+            animation: floating 5s infinite ease-in;
+            }
+            
+            #astronaut2{ 
+            position: absolute;
+            height: 425px;
+            top: 30%;
+            left: 30%;
+            animation: floating 4s infinite ease-in;
+            }
+            .block-display{
+                display: block;
+                }
+                form{
+                    position: absolute;
+                    top: 15%;
+                    left: 65%;
+                    background-color: white;
+                    width: 450px;
+                    padding: 0px 75px;
+                    border-radius: 5px;
+                    }
+                    label{
+                        font-size: 16px;
+                        margin: 20px 0px 4px 0px;
+                        }
+                        input[type="number"], input[type="text"], select{
+                            width: 300px;
+                            height: 40px;
+                            padding: 0 5px;
+                            border: 1px solid black;
+                            }
+                            #button{
+                                display:block;
+                                background-color: #ec7920;
+                                margin: 40px auto;
+                                padding: 15px 20px;
+                                border-radius: 20px;
+                                color: white;
+                                border: none;
+                                }
+                                @keyframes floating{
+                                    0%{
+                                    transform: translateY(0px);
+                                    }
+                                    
+                                    50%{
+                                    transform: translateY(30px);
+                                    }
+                                    }
+                                    
+                                    As
+                                    Ashish
+                                    7:46 PM
+                                    sir what is the project
+                                    
+                                    
+                
